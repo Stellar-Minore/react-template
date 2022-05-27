@@ -1,13 +1,12 @@
-import React from 'react';
-import { Switch } from 'react-router-dom';
+import { Routes } from 'react-router-dom';
 import Styles from './app.module.scss';
 
 function App() {
 	return (
 		<div>
 			<Layout>
-				<Switch>
-				</Switch>
+				<Routes>
+				</Routes>
 			</Layout>
 		</div>
 	);
@@ -21,4 +20,4 @@ const Layout = ({ children }) => (
 	</div>
 );
 
-export default App;
+export { App };
