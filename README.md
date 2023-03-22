@@ -11,3 +11,9 @@ On creating a new project, please update these things:
 2. Update website meta description in public/index.html
 3. Replace project favicon asset with project favicon in public folder
 4. Update project name in package.json
+
+
+## Best Practices
+
+1. Group related components in a folder. i.e Use an 'auth' folder for authentication related components
+2. Sort the routes alphabetically in app file
