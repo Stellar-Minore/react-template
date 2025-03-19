@@ -1,12 +1,12 @@
-import { Routes } from 'react-router-dom';
+import { AppRouter } from 'components/appRouter';
+import { routes } from 'components/appRouter/routes';
 import Styles from './app.module.scss';
 
 function App() {
 	return (
 		<div>
 			<Layout>
-				<Routes>
-				</Routes>
+				<AppRouter routes={routes} />
 			</Layout>
 		</div>
 	);
